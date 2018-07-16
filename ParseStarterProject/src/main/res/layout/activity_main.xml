@@ -1,0 +1,71 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/instagram_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        android:maxLines="1"
+        android:hint="Username"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:inputType="textPassword"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        android:maxLines="1"
+        android:hint="Password"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_centerInParent="true"
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            />
+
+        <TextView
+            android:id="@+id/toggle_function"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or, Login"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

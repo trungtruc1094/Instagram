@@ -1,0 +1,4 @@
+#Mon Jul 16 22:18:58 NZST 2018
+base.0=/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
