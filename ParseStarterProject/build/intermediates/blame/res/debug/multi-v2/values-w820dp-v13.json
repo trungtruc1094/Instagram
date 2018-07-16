@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\trung\\Documents\\GitHub\\Instagram\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/res/values-w820dp/dimens.xml",
+                    "source": "C:\\Users\\trung\\Documents\\GitHub\\Instagram\\ParseStarterProject\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "12",
                         "startColumns": "4",
-                        "startOffsets": "606",
+                        "startOffsets": "618",
                         "endColumns": "57",
-                        "endOffsets": "659"
+                        "endOffsets": "671"
                     },
                     "to": {
                         "startLines": "2",

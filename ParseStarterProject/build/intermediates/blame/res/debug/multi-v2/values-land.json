@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\trung\\Documents\\GitHub\\Instagram\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/6fe85729112b2c2690558a59060688aa/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\trung\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\d0b12350316633c3a56c6ac7c890797f\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,7,10,11,14,17,18",
                         "startColumns": "4,4,4,4,4,4,4",
