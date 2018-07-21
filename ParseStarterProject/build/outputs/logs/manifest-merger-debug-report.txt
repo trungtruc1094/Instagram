@@ -1,95 +1,150 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\d0b12350316633c3a56c6ac7c890797f\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\376dd4e8a43edcaf86906d099398cf68\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+MERGED from [com.android.support:design:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4733d179729a6f09f5c8aa2d1ea9cd0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7125df8eb4d9b147ae0c0e8d9c90b3b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e93234580e042b900487b46d9dd3390d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/997f0a71910eb57b30ab4f27fc0d2faa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5477f076d58eb1e5b9b9948289a4b08e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/58851ff81858ef7e9424dfc9a409d24a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/46ef4d6576480c69c5eabcd209243afa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e70a36add81efc59e40d7d16bbb4df4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5aa99976f6a3722a2686c99f64bca710/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/260ff895c7263a537fb9bc95e2383a27/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/491abbd57816d574ce4cdb960a888bb2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c0dddbabf21a6ce732b3e6e1d06f8c62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0340f0b6c72e209e7a87465b8dabdc8b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7adf6c93ce072faf6222890381623e7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f90266566782e9db80dd46a76b838d7c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3e6191f1e9cf849d9663eb64b00d7609/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff7e8f3414826a613736ab136c873da8/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
 	package
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:11:5-32
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:11-69
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:13:5-67
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:13:22-64
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:5-79
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:22-76
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
 application
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:16:5-38:19
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\d0b12350316633c3a56c6ac7c890797f\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\d0b12350316633c3a56c6ac7c890797f\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\376dd4e8a43edcaf86906d099398cf68\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\376dd4e8a43edcaf86906d099398cf68\AndroidManifest.xml:22:5-20
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:16:5-42:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e93234580e042b900487b46d9dd3390d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e93234580e042b900487b46d9dd3390d/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:20:9-41
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:20:9-41
 	android:icon
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:19:9-43
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:18:9-35
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:21:9-40
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:21:9-40
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:17:9-43
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:17:9-43
 meta-data#com.parse.APPLICATION_ID
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:22:9-24:52
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:22:9-24:52
 	android:value
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:24:13-49
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:24:13-49
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:23:13-52
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:23:13-52
 meta-data#com.parse.CLIENT_KEY
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:25:9-27:56
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:25:9-27:56
 	android:value
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:27:13-53
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:27:13-53
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:26:13-48
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:26:13-48
 activity#com.parse.starter.MainActivity
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:31:13-45
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:31:13-45
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:30:13-41
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:30:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:33:17-69
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:33:25-66
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:35:17-77
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:35:27-74
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:35:27-74
+activity#com.parse.starter.UserListActivity
+ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:38:9-41:68
+	android:label
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:40:13-61
+	android:theme
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml:39:13-45
 uses-sdk
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\d0b12350316633c3a56c6ac7c890797f\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.0.aar\d0b12350316633c3a56c6ac7c890797f\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\376dd4e8a43edcaf86906d099398cf68\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\trung\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.0.aar\376dd4e8a43edcaf86906d099398cf68\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4733d179729a6f09f5c8aa2d1ea9cd0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4733d179729a6f09f5c8aa2d1ea9cd0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7125df8eb4d9b147ae0c0e8d9c90b3b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7125df8eb4d9b147ae0c0e8d9c90b3b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e93234580e042b900487b46d9dd3390d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e93234580e042b900487b46d9dd3390d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/997f0a71910eb57b30ab4f27fc0d2faa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/997f0a71910eb57b30ab4f27fc0d2faa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5477f076d58eb1e5b9b9948289a4b08e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5477f076d58eb1e5b9b9948289a4b08e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/58851ff81858ef7e9424dfc9a409d24a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/58851ff81858ef7e9424dfc9a409d24a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/46ef4d6576480c69c5eabcd209243afa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/46ef4d6576480c69c5eabcd209243afa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e70a36add81efc59e40d7d16bbb4df4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e70a36add81efc59e40d7d16bbb4df4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5aa99976f6a3722a2686c99f64bca710/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5aa99976f6a3722a2686c99f64bca710/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/260ff895c7263a537fb9bc95e2383a27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/260ff895c7263a537fb9bc95e2383a27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/491abbd57816d574ce4cdb960a888bb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/491abbd57816d574ce4cdb960a888bb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c0dddbabf21a6ce732b3e6e1d06f8c62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c0dddbabf21a6ce732b3e6e1d06f8c62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0340f0b6c72e209e7a87465b8dabdc8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0340f0b6c72e209e7a87465b8dabdc8b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7adf6c93ce072faf6222890381623e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7adf6c93ce072faf6222890381623e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f90266566782e9db80dd46a76b838d7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f90266566782e9db80dd46a76b838d7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3e6191f1e9cf849d9663eb64b00d7609/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3e6191f1e9cf849d9663eb64b00d7609/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff7e8f3414826a613736ab136c873da8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff7e8f3414826a613736ab136c873da8/AndroidManifest.xml:20:5-44
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\trung\Documents\GitHub\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/src/main/AndroidManifest.xml

@@ -8,15 +8,23 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.GetCallback;
+import com.parse.LogInCallback;
 import com.parse.Parse;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
@@ -29,42 +37,89 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
-  EditText username;
-  EditText password;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
+    EditText username;
+    EditText password;
+    TextView toggleTextView;
+    LinearLayout linearLayout;
+    ImageView logoImageView;
+    boolean signUpMode = true;
+    Button submitBtn;
 
-  public void signUp(View view){
-
-    if (username.getText().toString().matches("") || password.getText().toString().matches("")){
-      Toast.makeText(MainActivity.this, "Username/Password is required",
-              Toast.LENGTH_LONG).show();
-    } else {
-      // User Sign up
-      ParseUser user = new ParseUser();
-      user.setUsername(username.getText().toString());
-      user.setPassword(password.getText().toString());
-
-      user.signUpInBackground(new SignUpCallback() {
-        @Override
-        public void done(ParseException e) {
-          if (e == null){
-            Log.i("Sign Up", "Success");
-          } else {
-            Log.i("Sign Up", "Failed" + e.toString());
-          }
-        }
-      });
+    public void showUserList() {
+        Intent intent = new Intent(MainActivity.this, UserListActivity.class);
+        startActivity(intent);
     }
 
-  }
+    public void signUp(View view) {
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+        if (username.getText().toString().matches("") || password.getText().toString().matches("")) {
+            Toast.makeText(MainActivity.this, "Username/Password is required",
+                    Toast.LENGTH_LONG).show();
+        } else {
 
-    username = (EditText) findViewById(R.id.username_edit);
-    password = (EditText) findViewById(R.id.password_edit);
+            if (signUpMode){
+                // User Sign up
+                ParseUser user = new ParseUser();
+                user.setUsername(username.getText().toString());
+                user.setPassword(password.getText().toString());
+
+                user.signUpInBackground(new SignUpCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if (e == null) {
+                            Log.i("Sign Up", "Success");
+                            showUserList();
+                        } else {
+                            Log.i("Sign Up", "Failed" + e.toString());
+                        }
+                    }
+                });
+            } else {
+                // User Log in
+                String usernameTxt = username.getText().toString();
+                String passwordTxt = password.getText().toString();
+                ParseUser.logInInBackground(usernameTxt, passwordTxt, new LogInCallback() {
+                    public void done(ParseUser user, ParseException e) {
+                        if (user != null) {
+                            // Hooray! The user is logged in.
+                            Log.i("Login", "Success");
+                            showUserList();
+                        } else {
+                            Log.i("Login", "Failed" + e.toString());
+                        }
+                    }
+                });
+            }
+        }
+
+    }
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        username = (EditText) findViewById(R.id.username_edit);
+        password = (EditText) findViewById(R.id.password_edit);
+        submitBtn = (Button) findViewById(R.id.submit_btn);
+
+        linearLayout = (LinearLayout) findViewById(R.id.layoutView);
+        logoImageView = (ImageView) findViewById(R.id.logoImageView);
+
+
+        toggleTextView = (TextView) findViewById(R.id.toggle_function);
+        toggleTextView.setOnClickListener(this);
+
+        password.setOnKeyListener(this);
+        linearLayout.setOnClickListener(this);
+        logoImageView.setOnClickListener(this);
+
+        if (ParseUser.getCurrentUser() != null) {
+            showUserList();
+        }
 
       /*ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
 
@@ -134,7 +189,32 @@ public class MainActivity extends AppCompatActivity {
 
       */
 
-    ParseAnalytics.trackAppOpenedInBackground(getIntent());
-  }
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+    }
 
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.toggle_function) {
+            if (signUpMode) {
+                toggleTextView.setText("or, Sign up");
+                submitBtn.setText("LOG IN");
+                signUpMode = false;
+            } else {
+                toggleTextView.setText("or, Log in");
+                submitBtn.setText("SIGN UP");
+                signUpMode = true;
+            }
+        } else if (view.getId() == R.id.logoImageView || view.getId() == R.id.layoutView) {
+            InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+        }
+    }
+
+    @Override
+    public boolean onKey(View view, int i, KeyEvent keyEvent) {
+        if (i == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN) {
+            signUp(view);
+        }
+        return false;
+    }
 }

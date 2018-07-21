@@ -1,18 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\trung\\Documents\\GitHub\\Instagram\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\trung\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\d0b12350316633c3a56c6ac7c890797f\\res\\values-port\\values-port.xml",
+                    "source": "/Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7125df8eb4d9b147ae0c0e8d9c90b3b0/res/values-port/values-port.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "291",
-                        "endColumns": "55",
-                        "endOffsets": "342"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

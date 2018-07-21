@@ -1,23 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\trung\\Documents\\GitHub\\Instagram\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\trung\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\d0b12350316633c3a56c6ac7c890797f\\res\\values-ru\\values-ru.xml",
+                    "source": "/Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0340f0b6c72e209e7a87465b8dabdc8b/res/values-ru/values-ru.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,406,508,620,706,811,931,1037,1145,1243,1352,1458,1566",
-                        "endColumns": "114,101,111,85,104,119,105,107,97,108,105,107,135",
-                        "endOffsets": "401,503,615,701,806,926,1032,1140,1238,1347,1453,1561,1697"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,170,272,384,470,575,695,801,909,1007,1116,1222,1330",
-                        "endColumns": "114,101,111,85,104,119,105,107,97,108,105,107,135",
-                        "endOffsets": "165,267,379,465,570,690,796,904,1002,1111,1217,1325,1461"
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1973",
+                        "endColumns": "100",
+                        "endOffsets": "2069"
+                    }
+                },
+                {
+                    "source": "/Users/trungtrucnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7125df8eb4d9b147ae0c0e8d9c90b3b0/res/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
                     }
                 }
             ]

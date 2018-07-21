@@ -12,13 +12,8 @@ buildscript {
 allprojects {
     repositories {
         mavenCentral()
+        google()
     }
 }
 
-ext {
-    compileSdkVersion = 22
-    buildToolsVersion = "23.0.1"
 
-    minSdkVersion = 9
-    targetSdkVersion = 23
-}

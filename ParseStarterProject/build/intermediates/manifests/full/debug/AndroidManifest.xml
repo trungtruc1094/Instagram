@@ -13,11 +13,12 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.parse.starter.StarterApplication"
@@ -43,6 +44,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.parse.starter.UserListActivity"
+            android:label="@string/title_activity_user_list"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
