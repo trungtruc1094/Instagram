@@ -48,6 +48,10 @@
             android:name="com.parse.starter.UserListActivity"
             android:label="@string/title_activity_user_list"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parse.starter.UserFeedActivity"
+            android:label="@string/title_activity_user_feed"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

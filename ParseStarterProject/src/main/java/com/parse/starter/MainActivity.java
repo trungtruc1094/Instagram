@@ -102,6 +102,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Set title to Activity
+        setTitle("Instagram");
+
         username = (EditText) findViewById(R.id.username_edit);
         password = (EditText) findViewById(R.id.password_edit);
         submitBtn = (Button) findViewById(R.id.submit_btn);
@@ -194,6 +197,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        // Toggle between signup and login mode
         if (view.getId() == R.id.toggle_function) {
             if (signUpMode) {
                 toggleTextView.setText("or, Sign up");
@@ -205,6 +209,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 signUpMode = true;
             }
         } else if (view.getId() == R.id.logoImageView || view.getId() == R.id.layoutView) {
+            // Hide keyboard when clicking on background or logo
             InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         }
@@ -212,6 +217,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onKey(View view, int i, KeyEvent keyEvent) {
+        // Sign up or Login when clicking enter button on keyboard
         if (i == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN) {
             signUp(view);
         }

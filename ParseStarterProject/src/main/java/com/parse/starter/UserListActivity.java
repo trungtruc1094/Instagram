@@ -19,15 +19,21 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
+import com.parse.ParseFile;
+import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -57,6 +63,7 @@ public class UserListActivity extends AppCompatActivity {
         }
     }
 
+    // Create Options Menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -65,6 +72,7 @@ public class UserListActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    // Set up when clicking on items of options menu
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.share){
@@ -78,6 +86,11 @@ public class UserListActivity extends AppCompatActivity {
             } else {
                 getPhoto();
             }
+        } else if (item.getItemId() == R.id.logout){
+            // User log out
+            ParseUser.logOut();
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -88,6 +101,10 @@ public class UserListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
 
+        // Set title to Activity
+        setTitle("User List");
+
+        // Set tool bar for activity
         mToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(mToolbar);
 
@@ -95,6 +112,18 @@ public class UserListActivity extends AppCompatActivity {
         final ArrayList<String> usernames = new ArrayList<String>();
 
         final ArrayAdapter userArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, usernames);
+
+        // Click on item of list view
+        userListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent intent = new Intent(getApplicationContext(), UserFeedActivity.class);
+                intent.putExtra("username", usernames.get(position));
+                startActivity(intent);
+
+            }
+        });
 
         // Get user from Parse Server
         ParseQuery<ParseUser> query = ParseUser.getQuery();
@@ -120,8 +149,7 @@ public class UserListActivity extends AppCompatActivity {
 
     }
 
-    // Check result from activity
-
+    // Check result from activity - EXTERNAL MEDIA STORAGE
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -133,6 +161,26 @@ public class UserListActivity extends AppCompatActivity {
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImage);
                 // Upload Image to Parse Server
                 Log.i("Photo", "Received");
+
+                ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                byte[] byteArray = stream.toByteArray();
+
+                ParseFile file = new ParseFile("image.png", byteArray);
+                ParseObject object = new ParseObject("Image");
+                object.put("image", file);
+                object.put("username", ParseUser.getCurrentUser().getUsername());
+
+                object.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if (e == null){
+                            Toast.makeText(UserListActivity.this, "Image Shared", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(UserListActivity.this, "Image could not be shared - please try again later", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
 
             } catch (IOException e) {
                 e.printStackTrace();

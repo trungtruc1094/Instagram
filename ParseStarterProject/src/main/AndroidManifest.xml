@@ -11,7 +11,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".StarterApplication"
@@ -38,6 +38,10 @@
         <activity
             android:name=".UserListActivity"
             android:label="@string/title_activity_user_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserFeedActivity"
+            android:label="@string/title_activity_user_feed"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

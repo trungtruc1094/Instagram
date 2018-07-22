@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 21 20:44:35 NZST 2018
+#Sun Jul 22 16:27:11 NZST 2018
 1.base=/Users/trungtrucnguyen/Desktop/ANDROID/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/12
 2.path=classes.dex
 0.baseType=DIRECTORY
